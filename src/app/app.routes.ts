@@ -10,7 +10,7 @@ export const routes: Routes = [
     // If this path is the 'full' match...
     pathMatch: 'full',
     // ...redirect to this route.
-    redirectTo: 'home',
+    redirectTo:'home',
   },
   {
     path: '',
@@ -20,5 +20,5 @@ export const routes: Routes = [
       { path: 'blog', component: BlogComponent },
       { path: 'contact', component: ContactComponent },
     ],
-  },
+  }
 ];
